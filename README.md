@@ -31,4 +31,4 @@ mandam mensagens via socket e se são considerados testes de integração.
 ## TDD test Driven Developement
 
 - Desenvolvimento Orientado por testes. 
-Desenvolvimento de software baseado em testes que serão escritos antes do nosso código de produção
+Desenvolvimento de software baseado em testes que serão escritos antes do nosso código de produção.
