@@ -9,7 +9,7 @@
 - Utilização de Mockito para os testes
 - Utilização do JUnit5 para os testes
 
-# Porque Testar o seu codígo
+# Porque Testar o seu código?
 
 - Diminuir ao maximo as chances de obter bugs.
 - Teste de regressão após fazer alguma alteração de códigos existes ou novas funcionalidade, implementar testes automatizado.
