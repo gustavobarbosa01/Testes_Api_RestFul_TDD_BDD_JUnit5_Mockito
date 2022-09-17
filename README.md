@@ -21,6 +21,6 @@
 # Abordagens do Projeto.
 
 1. Teste Unitário.
-- Teste da menos parte testável de um programa. No teste unitário os módulos serão testados separadamente. 
-Geralmente serão isoladas as classes que serão testadas para a simulação dos comportamentos das dependências
+- Teste da menor parte testável de um programa. No teste unitário os módulos serão testados separadamente. 
+A implementação terá as classes que serão testadas isoladas para a simulação dos comportamentos das dependências
 2. 
