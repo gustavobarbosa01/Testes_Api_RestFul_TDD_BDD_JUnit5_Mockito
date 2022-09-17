@@ -26,4 +26,9 @@ A implementação terá as classes que serão testadas isoladas para a simulaç�
 2. Teste de Integração
 - Testar a integração entre duas pastes do sistema. Testes que irão verificar se suas classes 
 comunica-se bem com os serviços web, escreve arquivos de texto,
-mandam mensagens via socket e se são considerados testes de integração.
+mandam mensagens via socket e se são considerados testes de integração. 
+
+## TDD test Driven Developement
+
+- Desenvolvimento Orientado por testes. 
+Desenvolvimento de software baseado em testes que serão escritos antes do nosso código de produção
