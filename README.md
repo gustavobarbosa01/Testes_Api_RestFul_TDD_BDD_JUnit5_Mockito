@@ -1,6 +1,6 @@
 ## Testes_Api_RestFul_TDD_BDD_JUnit5_Mockito.
 
-# Objetivos do Projeto
+# Objetivos do Projeto.
 
 - Objetivo ao se realizar os testes
 - Tipos de Testes
@@ -17,3 +17,10 @@
 - Os testes proporcionam uma escrita de códigos de alta qualidade.
 - Para se fazer uma refatoração de código e upgrade de dependências de forma segura.
 - Atender as necessidades das empresas que exigem que os desenvolvedores testem seus códigos.
+
+# Abordagens do Projeto.
+
+1. Teste Unitário.
+- Teste da menos parte testável de um programa. No teste unitário os módulos serão testados separadamente. 
+Geralmente serão isoladas as classes que serão testadas para a simulação dos comportamentos das dependências
+2. 
