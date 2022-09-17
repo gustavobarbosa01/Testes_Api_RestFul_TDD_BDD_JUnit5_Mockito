@@ -23,4 +23,7 @@
 1. Teste Unitário.
 - Teste da menor parte testável de um programa. No teste unitário os módulos serão testados separadamente. 
 A implementação terá as classes que serão testadas isoladas para a simulação dos comportamentos das dependências
-2. 
+2. Teste de Integração
+- Testar a integração entre duas pastes do sistema. Testes que irão verificar se suas classes 
+comunica-se bem com os serviços web, escreve arquivos de texto,
+mandam mensagens via socket e se são considerados testes de integração.
