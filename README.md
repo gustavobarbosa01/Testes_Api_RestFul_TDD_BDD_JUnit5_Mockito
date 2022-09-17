@@ -18,7 +18,7 @@
 - Para se fazer uma refatoração de código e upgrade de dependências de forma segura.
 - Atender as necessidades das empresas que exigem que os desenvolvedores testem seus códigos.
 
-# Abordagens do Projeto.
+# Tipos de testes Abordados no Projeto.
 
 1. Teste Unitário.
 - Teste da menor parte testável de um programa. No teste unitário os módulos serão testados separadamente. 
