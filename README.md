@@ -175,7 +175,7 @@ todos os endereços.
 
 ### XML
 
-- Comparação de estrutura do arquivo JSON com XML utilizado em protocolo SOAP.
+- Comparação de estrutura do arquivo JSON com XML utilizado utilizado em protocolo SOAP.
 
 - **Exemplo XML SOAP**:
 ```
