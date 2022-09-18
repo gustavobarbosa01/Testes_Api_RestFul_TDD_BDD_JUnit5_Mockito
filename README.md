@@ -77,7 +77,7 @@ e os resources são representados por HTML, XML, txt, dentre outros
 - Funciona no Modelo REQUEST -> RESPONSE, onde troca-se mensagens e retorna-se 
 códigos de status, dependendo do que aconteceu no processamento da rquisição http.
 
-![](../../../AppData/Local/Temp/img-1.png)
+![](https://www.smarti.blog.br/wp-content/uploads/2018/08/Rest_Overview_Diagram.jpg)
 
 * Fluxo de trabalho API Rest.
 
