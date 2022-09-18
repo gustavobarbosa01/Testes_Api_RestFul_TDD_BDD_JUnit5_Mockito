@@ -50,5 +50,5 @@ funcionalidade.
 os se encontra o cenário, "Quando" onde se executa suas operações e "Então" um resultado é obtido. 
 Por exemplo dado dois numeros quando somados o resultado será o obtido ou esperado.
 
-![](../library-api/src/main/java/com/grbarbosa/libraryapi/img/bdd.png)
+![](https://www.primecontrol.com.br/en/wp-content/uploads/2020/02/bdd.png)
 * Fluxo de trabalho do BDD.
