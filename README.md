@@ -66,3 +66,17 @@ Conforme o desenho abaixo tenta explicar.
 ![](../../../AppData/Local/Temp/1_Y5OEPlXdLblECPh3jRjoTw.png)
 * Fluxo de trabalho Mockito.
 
+# Apis Restfull
+### Representation State Transfer
+#### O que é rest?
+- Designer de arquitetura construida para servir aplicações em rede.
+- Não é um padrão e sim um guia.
+- Ele ele possui uma arquiterua onde não se guarda stados (Stateless).
+- É uma interface uniforme: cada recurso(resource) tem uma URL específica, 
+e os resources são representados por HTML, XML, txt, dentre outros
+- Funciona no Modelo REQUEST -> Responde, onde troca-se mensagens e retorna-se 
+códigos de status, dependendo do que aconteceu no processamento da rquisição http.
+
+![](../../../AppData/Local/Temp/img-1.png)
+
+* Fluxo de trabalho API Rest.
