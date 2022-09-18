@@ -44,3 +44,11 @@ Desenvolvimento de software baseado em testes que serão escritos antes do nosso
 O teste BDD não traz somente um estilo de escrever cenários de testes amigáveis, mas também a 
 importante ideia do que deve ser feito antes de escrever o código que implementa a sua 
 funcionalidade.
+
+#### Given - When - Then
+- Em cada testes desenvolvido no BDD segue-se basicamente tres passos, "Dado que" especificamente 
+os se encontra o cenário, "Quando" onde se executa suas operações e "Então" um resultado é obtido. 
+Por exemplo dado dois numeros quando somados o resultado será o obtido ou esperado.
+
+![](../library-api/src/main/java/com/grbarbosa/libraryapi/img/bdd.png)
+* Fluxo de trabalho do BDD.
