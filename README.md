@@ -28,10 +28,19 @@ A implementação terá as classes que serão testadas isoladas para a simulaç�
 comunica-se bem com os serviços web, escreve arquivos de texto,
 mandam mensagens via socket e se são considerados testes de integração. 
 
-## TDD Test Driven Developement
+# TDD Test Driven Developement
 
 - Desenvolvimento Orientado por testes. 
 Desenvolvimento de software baseado em testes que serão escritos antes do nosso código de produção.
+- Primeiro se escreve um testes, deve obter um erro, depois do test passar, se refatora para que o 
+- mesmo seja implementado até atendender todos osqrequisitos do sistema.
 
 ![](https://miro.medium.com/max/1400/1*7dua_4_yXKc_IKHK01VZ2A.jpeg)
-#### *fluxo de trabalho do TDD..
+* Fluxo de trabalho do TDD.
+
+# BDD Behavior Driven Developement
+
+- Desenvolvimento de testes de fácil entendimento.
+O teste BDD não traz somente um estilo de escrever cenários de testes amigáveis, mas também a 
+importante ideia do que deve ser feito antes de escrever o código que implementa a sua 
+funcionalidade.
