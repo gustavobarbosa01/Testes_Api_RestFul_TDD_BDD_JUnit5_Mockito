@@ -80,3 +80,38 @@ códigos de status, dependendo do que aconteceu no processamento da rquisição 
 ![](../../../AppData/Local/Temp/img-1.png)
 
 * Fluxo de trabalho API Rest.
+
+# Verbos HTTP
+
+#### Post
+- Cria um recurso no servidor
+- Envia-se o recurso a ser criado.
+- Sua resposta possui o código 201(CREATED), significa que algum recurso foi criado no servidor.
+
+#### Get
+- Obtém um recurso do servidor. 
+- Poderá enviar parametros com critérios de buscas.
+- Sua resposta possui o código 200(OK - recurso encontrado) ou 404(NOT FOUND - recurso não encontrado) 
+quando o recurso não for encontrado no servidor.
+- 
+#### Put
+- Há uma semelhança com Post, porém no Put o recurso já existirá no servidor para ser altualizado.
+- Envia-se o recurso através da URL, envia-se o indentificador do recurso que irá receber a atualização.
+- Sua resposta possui o código 200(OK) quando ocorre tudo com sucesso.
+
+#### Delete
+- Ddeletará um recurso no servidor.
+- Envia-se um indentificador do recurso que deseja-se deletar atravé da URL.
+- Sua resposta possui o código 204(NO CONTENT) quando ocorre a deleção com sucesso.
+
+# Modelagem de Recurso
+###### - Não recomendado
+|Verbo HTTP| URL | Ação |
+|-------|-------|-------|
+|POST/PUT| /cadastrarCliente | salvar |
+|GET| /buscarCliente/1 | visualizar |
+|DELETE/GET| /deletarCliente/1 | remover |
+|POST| /alterarCliente/1 | atualizar |
+
+
+
