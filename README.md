@@ -33,5 +33,5 @@ mandam mensagens via socket e se são considerados testes de integração.
 - Desenvolvimento Orientado por testes. 
 Desenvolvimento de software baseado em testes que serão escritos antes do nosso código de produção.
 
-![](../../../AppData/Local/Temp/images.png)
+![](https://miro.medium.com/max/1400/1*7dua_4_yXKc_IKHK01VZ2A.jpeg)
 #### *fluxo de trabalho do TDD..
