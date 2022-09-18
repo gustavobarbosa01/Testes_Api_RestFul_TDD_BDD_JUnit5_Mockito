@@ -160,3 +160,49 @@ todos os endereços.
 |GET| 200(ok) | 404(Not found) |
 |DELETE| 204(No Content) | 400(Bad Request)/404(Not Found) |
 |PUT| 200(ok) | 400/404(Not Found) |
+
+# Representação de recursos.
+
+### JSON
+
+- Javascript Object Notation.
+- Leitura mais simples. Qualquer linguagem de programação poderá utilizar o JSON.
+- Analisador(parsing) mais fácil.
+- Suporte para Objetos.
+- É um recurso tipado.
+- Velocidade maior de execução e transporte de dados.
+- Arquivo com tamanho reduzido.
+
+### XML
+
+- Comparação de estrutura do arquivo JSON com XML utilizado em protocolo SOAP.
+
+- **Exemplo XML SOAP**:
+```
+<clientes>
+    <cliente id="1">
+        <nome>Gustavo</nome>
+        <cpf>12345875487</cpf>
+        <endereco>
+            <logradouro>
+                Rua W Y Z
+            </logradouro>
+            <numero>10</numero>
+        </endereco>
+    </cliente>
+</clientes>
+```
+
+- **Exemplo JSON**:
+```
+[
+    {
+        nome: "Gustavo",
+        cpf: "12345875487",
+        endereco: {
+            endereco: "Rua W Y Z",
+            numero: 10
+        }
+    }
+]
+```
