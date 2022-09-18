@@ -52,3 +52,17 @@ Por exemplo dado dois numeros quando somados o resultado será o obtido ou esper
 
 ![](https://www.primecontrol.com.br/en/wp-content/uploads/2020/02/bdd.png)
 * Fluxo de trabalho do BDD.
+
+# Mockito
+
+![](../../../AppData/Local/Temp/1_3NDVbzYlOTLyRSrpay9uYw.png)
+
+- O Mockito é um framework de testes unitários e o seu principal objetivo é instanciar classes 
+e controlar o comportamento dos métodos. Isso é chamado de mock, na tradução livre quer dizer zombar, 
+e talvez seja mesmo o termo que melhor o define. Pois ao mockar a dependencia de uma classe, faz 
+com que a classe que eteja sendo testada pense estar invocando o metodo realmente, mas de fato não está. 
+Conforme o desenho abaixo tenta explicar.
+- 
+![](../../../AppData/Local/Temp/1_Y5OEPlXdLblECPh3jRjoTw.png)
+* Fluxo de trabalho Mockito.
+
