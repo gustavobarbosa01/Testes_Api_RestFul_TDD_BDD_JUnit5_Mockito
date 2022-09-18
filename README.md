@@ -66,8 +66,8 @@ Conforme o desenho abaixo tenta explicar.
 ![](../../../AppData/Local/Temp/1_Y5OEPlXdLblECPh3jRjoTw.png)
 * Fluxo de trabalho Mockito.
 
-# Apis Restfull
-### Representation State Transfer
+# Apis Restfull.
+### Representation State Transfer.
 #### O que é rest?
 - Designer de arquitetura construida para servir aplicações em rede.
 - Não é um padrão e sim um guia.
@@ -81,7 +81,7 @@ códigos de status, dependendo do que aconteceu no processamento da rquisição 
 
 * Fluxo de trabalho API Rest.
 
-# Verbos HTTP
+# Verbos HTTP.
 
 #### Post
 - Cria um recurso no servidor
@@ -104,8 +104,9 @@ quando o recurso não for encontrado no servidor.
 - Envia-se um indentificador do recurso que deseja-se deletar atravé da URL.
 - Sua resposta possui o código 204(NO CONTENT) quando ocorre a deleção com sucesso.
 
-# Modelagem de Recurso
-###### - Não recomendado
+# Modelagem de Recurso.
+
+###### - Não recomendado.
 |Verbo HTTP| URL | Ação |
 |-------|-------|-------|
 |POST/PUT| /cadastrarCliente | salvar |
@@ -113,5 +114,49 @@ quando o recurso não for encontrado no servidor.
 |DELETE/GET| /deletarCliente/1 | remover |
 |POST| /alterarCliente/1 | atualizar |
 
+###### * Observação *: 
+- ###### Sua URL não deve utilizar verbos como "cadastarCliente", e sim substantivo, utilizar "cadastrar" 
+    ###### por exemplo, denvendo utilizar apenas o Post para salvar um recurso no servidor, já o Put 
+    ###### apenas quando se quer atualizar algum recurso.
+- ###### Get não se é utilizado para deletar e sim o DELETE para obter recuros do servidor para excluir.
+- ###### Get não se é utilizado para deletar e sim para obter recursos do servidor, neste caso para deletar é recomendado utilizar apropriadamente o DELETE para se excluir(Também não se deve utilizaar verbos na UL).
 
+# Identificação de Recursos.
 
+###### - Abordagem RestFul
+|Verbo HTTP| URL | Ação |
+|-------|-------|-------|
+|POST| /clientes | salvar |
+|GET| /clientes/1 | visualizar |
+|DELETE| /clientes/1 | remover |
+|PUT| /clientes/1 | atualizar |
+###### * Observação *:
+- ######Abordagen utiliza substantivos, onde a raiz para visualizar, remover e atualizar,
+- ###### e identificadores na requisição da URL;
+
+# Identificação de Sub Recursos.
+
+|Verbo HTTP| URL | Ação |
+|-------|-------|-------|
+|POST| /clientes/1/enderecos | salvar |
+|GET| /clientes/1/enderecos/1 | visualizar |
+|DELETE| /clientes/1/enderecos/1 | remover |
+|PUT| /clientes/1/enderecos/1 | atualizar |
+
+***Observação:** 
+Abordagem utiliza sub endereços, onde se tem a identificação dos endereços, uma url apenas do 
+endereço, poderá ser utilizada também passando apenas URL "/enderecos" para o Get, e assim visualizar 
+todos os endereços. 
+
+##### **Códigos HTTP Status.*
+| Consulte os status de respostas HTTP aqui: **[MDN Web Docs](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status)** |
+|----------------------------------------------------------------------------------------------------------------|
+
+##### **Código de Status Sucesso e Erro.*
+
+|Verbo HTTP| Sucesso | Erro |
+|-------|-------|-------|
+|POST| 201(created) | 400(Bad Request) |
+|GET| 200(ok) | 404(Not found) |
+|DELETE| 204(No Content) | 400(Bad Request)/404(Not Found) |
+|PUT| 200(ok) | 400/404(Not Found) |
